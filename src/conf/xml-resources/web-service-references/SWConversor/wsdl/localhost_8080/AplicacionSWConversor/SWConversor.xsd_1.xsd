@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.3 (tags/2.3-7528; 2013-04-29T19:34:10+0000) JAXWS-RI/2.2.8 JAXWS/2.2 svn-revision#unknown. --><xs:schema xmlns:tns="http://conversor/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://conversor/">
+
+<xs:element name="dol_eur" type="tns:dol_eur"/>
+
+<xs:element name="dol_eurResponse" type="tns:dol_eurResponse"/>
+
+<xs:element name="dol_lib" type="tns:dol_lib"/>
+
+<xs:element name="dol_libResponse" type="tns:dol_libResponse"/>
+
+<xs:element name="dol_pes" type="tns:dol_pes"/>
+
+<xs:element name="dol_pesResponse" type="tns:dol_pesResponse"/>
+
+<xs:complexType name="dol_pes">
+<xs:sequence>
+<xs:element name="parametro" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dol_pesResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dol_lib">
+<xs:sequence>
+<xs:element name="parametro" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dol_libResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dol_eur">
+<xs:sequence>
+<xs:element name="parametro" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="dol_eurResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
